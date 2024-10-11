@@ -1,2 +1,2 @@
 # basic-verilog
-Estudando
+Estudando estruturas sinples em verilog
