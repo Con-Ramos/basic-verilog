@@ -1,4 +1,4 @@
-module mux #(parameter integer WIDTH = 1)(  // Modulo mux realiza a selecao dos dados
+module mux_assign #(parameter integer WIDTH = 1)(  // Modulo mux realiza a selecao dos dados
     input wire [WIDTH-1:0] in_A,            // Entrada 0, in_A = primeira entrada do mux
     input wire [WIDTH-1:0] in_B,            // Entrada 1, in_B = segunda entrada do mux
     input wire SEL,                         // Sinal de selecao, qual das duas entradas sera passada para a saida
