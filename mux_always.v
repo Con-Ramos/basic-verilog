@@ -1,3 +1,5 @@
+//abreviação de multiplexador, é um componente digital que seleciona um dos vários sinais de entrada e o
+//transmite para uma única saída, com base em um sinal de seleção
 module mux_always #(parameter integer WIDTH = 1)(  //modulo mux realiza a selecao dos dados
     input wire [WIDTH-1:0] in_A,            //entrada 0, in_A = primeira entrada do mux
     input wire [WIDTH-1:0] in_B,            //entrada 1, in_B = segunda entrada do mux
